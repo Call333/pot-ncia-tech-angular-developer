@@ -35,8 +35,7 @@ class Cardnews extends HTMLElement {
         const newsImage = document.createElement('img');
         newsImage.src = (this.getAttribute('source-image') || './assets/img/default-pfp-1.jpg');
         newsImage.alt = this.getAttribute('alt-image');
-z
-
+        
         cardRight.appendChild(newsImage);
         componentRoot.appendChild(cardLeft);
         componentRoot.appendChild(cardRight);
