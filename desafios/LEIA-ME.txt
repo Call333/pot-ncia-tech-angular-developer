@@ -1,0 +1,5 @@
+ESSES CÓDIGOS RODAM NO SITE DA DIO MELHOR DO QUE AQUI, 
+pois lá eles usam um sistemas de input próprio deles 
+que não existe de maneira prática no JS padrão.
+
+Att. Calebe

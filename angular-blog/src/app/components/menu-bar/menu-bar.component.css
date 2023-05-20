@@ -1,0 +1,43 @@
+.menu-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 110px;
+    align-items: center;
+}
+
+.menu-bar-links ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.menu-bar-links ul li{ 
+    margin-right: 35px;
+    list-style: none;
+}
+
+.menu-bar-logo {
+    transform: rotate(-15deg);
+}
+
+.menu-bar-container ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-bar-social ul li{ 
+    margin-right: 35px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(114, 113, 113);
+}
+a:hover {
+    color: white;
+}

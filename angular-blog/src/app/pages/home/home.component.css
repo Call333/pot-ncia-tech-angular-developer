@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.home-page { 
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.articles-main {
+    display: flex;
+}
+
+.home-page > .articles {
+    margin: 30px;
+}

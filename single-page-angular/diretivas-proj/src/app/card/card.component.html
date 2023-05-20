@@ -1,0 +1,31 @@
+<h1>My-App</h1>
+<p *ngif="false">card works!</p>
+<!--*ngif="valorBoolean" exibit um c-->
+<button>olá mundo</button>
+<p>Click nos itens da lista: </p>
+<ul>
+    <li *ngFor="let p of produtos; let i = index" (click)="remover(i)">
+        {{ i }} {{ p }}
+    </li>
+    <button (click)="add()">Adicionar</button>
+</ul>
+
+<div [ngSwitch]="menuType">
+    <div *ngSwitchDefault>
+        <ul>
+            <li>editar perfil</li>
+            <li>adicionar cartão</li>
+        </ul>
+    </div>
+    <div *ngSwitchCase="'admin'">
+        <li>editar perfil</li>
+        <li>adicionar cartão</li>
+        <li>gerenciar usuarios</li>
+    </div>
+    <div *ngSwitchCase="'superuser'">
+        <li>editar perfil</li>
+        <li>adicionar cartão</li>
+        <li>gerenciar usuarios</li>
+        <li>gerenciar admins</li>
+    </div>
+</div>
